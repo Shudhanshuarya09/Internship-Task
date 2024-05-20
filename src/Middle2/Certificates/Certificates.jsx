@@ -1,5 +1,5 @@
 import React from 'react';
-import './Certificate.css';
+import './Certificates.css';
 
 const CertificationsAndInternships = () => {
   return (

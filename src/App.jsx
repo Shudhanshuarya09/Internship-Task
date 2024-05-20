@@ -3,8 +3,9 @@ import CourseCurriculum from "./Curriculum/Curriculum"
 import LimitedTimeBanner from "./Middle/Heading/Heading"
 import Offer from "./Middle/Offer/Offer"
 import HowItWorks from "./Middle/Working/Working"
-import TopCompanies from "./Middle2/Companies Hiring/Hiring"
+import TopCompanies from "./Middle2/CompaniesHiring/Hiring"
 import Certificate from "./Middle2/Certificates/Certificates"
+import lastPart from "./lastPart/lastPart"
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <HowItWorks/>
       <TopCompanies/>
       <Certificate/>
+      <lastPart/>
     </>
     
   )
