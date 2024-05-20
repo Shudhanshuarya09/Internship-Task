@@ -1,5 +1,5 @@
 import React from 'react';
-import './Curriculam.css';
+import './Curriculum.css';
 
 const CourseCurriculum = () => {
   const courses = [

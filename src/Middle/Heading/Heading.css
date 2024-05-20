@@ -1,0 +1,14 @@
+.banner-container {
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.highlight {
+  color: #A020F0; /* Purple color */
+  font-weight: 700;
+}
