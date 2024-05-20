@@ -1,0 +1,44 @@
+.certifications-internships-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.certifications-internships-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.certifications-internships-container .highlight {
+  color: #A020F0; /* Highlight color */
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.certificates, .internships {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+}
+
+.certificates h3, .internships h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.certificate-image, .internship-image {
+  background-color: #e0e0e0;
+  border-radius: 8px;
+  height: 150px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #555;
+}

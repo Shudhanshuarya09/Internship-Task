@@ -1,0 +1,33 @@
+.top-companies-container {
+  text-align: center;
+  background-color: #fff7e6; /* Light yellow background */
+  padding: 20px 0;
+}
+
+.top-companies-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.top-companies-container .highlight {
+  color: #F4A261; /* Highlight color */
+}
+
+.company-logos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.company-logos .logo {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
