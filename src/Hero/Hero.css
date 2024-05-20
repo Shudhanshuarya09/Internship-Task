@@ -1,0 +1,84 @@
+.course-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.alumni-initiative {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.highlight {
+  color: #A020F0; /* Purple color */
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.features span {
+  background-color: #FFF5E1; /* Light orange background */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.enroll-button, .know-more-button {
+  background-color: #A020F0; /* Purple color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.enroll-button:hover, .know-more-button:hover {
+  background-color: #9400D3; /* Darker purple on hover */
+}
+
+.know-more-button {
+  background-color: #EEEEEE; /* Light grey color */
+  color: black;
+}
+
+.know-more-button:hover {
+  background-color: #DDDDDD; /* Darker grey on hover */
+}
+
+.statistics {
+  display: flex;
+  justify-content: space-around;
+  background-color: #F3E8FD; /* Light purple background */
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-item p {
+  margin: 5px 0 0 0;
+  font-size: 1rem;
+  color: #6C63FF; /* Purple text */
+}

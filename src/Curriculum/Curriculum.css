@@ -1,0 +1,71 @@
+.curriculum-container {
+  background-color: #FAF4FF; /* Light purple background */
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 30px;
+}
+
+.path-indicator {
+  display: inline-block;
+  background-color: #F3E8FD; /* Lighter purple */
+  color: #6C63FF; /* Purple text */
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+.highlight {
+  color: #A020F0; /* Gradient color effect can be added with background-clip and text-fill */
+}
+
+.course-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.course-item {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.course-info h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.course-info p {
+  margin: 5px 0 0 0;
+  color: #555;
+}
+
+.view-button {
+  background-color: #F3E8FD; /* Light purple */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #6C63FF; /* Purple text */
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.view-button:hover {
+  background-color: #E0D3FF; /* Darker purple on hover */
+}
